@@ -3,7 +3,7 @@
   puts "Guess a number between 1 and 6."
   user_input = gets.chomp
   comp_num = rand(1..6)
-  while user_input != "exit" do
+  
     # Compare input to random num
     # Print result: correct?
     if user_input.to_i == comp_num
